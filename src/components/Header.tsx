@@ -8,9 +8,9 @@ export default function Header() {
   const [open, setOpen] = useState(false);
   return <header className="site-header">
     <div className="header-inner">
-      <a href="#inicio" className="brand" aria-label="Fernando Apicultor - início">
+      <a href="#inicio" className="brand" aria-label="Fernando Silva, apicultor — início">
         <span className="brand-mark"><img src="/images/simbolo-apicultura.jpg" alt=""/></span>
-        <span className="brand-type"><strong>Fernando</strong><b>APICULTOR</b><small>MANEJO RESPONSÁVEL DE ENXAMES</small></span>
+        <span className="brand-type"><strong>Fernando Silva</strong><b>APICULTOR</b><small>MANEJO RESPONSÁVEL DE ENXAMES</small></span>
       </a>
       <nav className={`main-nav ${open ? 'is-open' : ''}`} aria-label="Navegação principal">
         {links.map(([label, href]) => <a key={href} href={href} onClick={() => setOpen(false)}>{label}</a>)}

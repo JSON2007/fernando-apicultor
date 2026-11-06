@@ -2,7 +2,7 @@ import { Icon } from './Icons';
 const steps = [
   { n:'01', icon:'message' as const, title:'Entre em contato', text:'Conte o que está acontecendo e informe a localização aproximada.' },
   { n:'02', icon:'camera' as const, title:'Envie fotos ou solicite uma visita', text:'As imagens ajudam na primeira avaliação. Se necessário, combinamos uma visita presencial gratuita.' },
-  { n:'03', icon:'check' as const, title:'Combine o atendimento', text:'Fernando explica a situação, alinha as condições e combina os próximos passos.' },
+  { n:'03', icon:'check' as const, title:'Combine o atendimento', text:'Fernando Silva explica a situação, alinha as condições e combina os próximos passos.' },
 ];
 export default function ProcessSteps() {
   return <section id="processo" className="section section-forest process-section">

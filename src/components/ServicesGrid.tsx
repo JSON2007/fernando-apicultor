@@ -10,7 +10,7 @@ export default function ServicesGrid() {
         <div className="service-icon"><Icon name={iconMap[i]} size={26}/></div>
         <span className="service-number">0{i+1}</span>
         <h3>{service.title}</h3><p>{service.description}</p>
-        <a href={whatsappLink(`Olá, Fernando! Gostaria de informações sobre: ${service.title.toLowerCase()}.`)} target="_blank" rel="noreferrer" aria-label={`Consultar sobre ${service.title}`}>Consultar serviço <Icon name="arrow" size={16}/></a>
+        <a href={whatsappLink(`Olá, Fernando Silva! Gostaria de informações sobre: ${service.title.toLowerCase()}.`)} target="_blank" rel="noreferrer" aria-label={`Consultar sobre ${service.title}`}>Consultar serviço <Icon name="arrow" size={16}/></a>
       </article>)}</div>
     </div>
   </section>;
