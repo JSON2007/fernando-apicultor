@@ -21,10 +21,10 @@ export default function FloatingEvaluationInvite() {
 
   if (!visible) return null;
 
-  const message = 'Olá, Fernando Silva! Gostaria de solicitar uma avaliação para um enxame.';
+  const message = 'Olá, Fernando Silva! Gostaria de solicitar uma avaliação por foto. Vou enviar imagens do local e do enxame.';
 
   return (
-    <aside className="evaluation-invite" aria-label="Solicite uma avaliação">
+    <aside className="evaluation-invite" aria-label="Solicite uma avaliação por foto">
       <button
         className="evaluation-invite-close"
         type="button"
@@ -41,7 +41,7 @@ export default function FloatingEvaluationInvite() {
 
       <p className="evaluation-invite-title">Encontrou um enxame?</p>
       <p className="evaluation-invite-copy">
-        Solicite uma avaliação e receba orientação para a sua situação.
+        Envie fotos pelo WhatsApp e solicite uma avaliação inicial.
       </p>
 
       <a
@@ -49,10 +49,10 @@ export default function FloatingEvaluationInvite() {
         href={whatsappLink(message)}
         target="_blank"
         rel="noreferrer"
-        aria-label="Solicitar avaliação com Fernando Silva pelo WhatsApp"
+        aria-label="Solicitar avaliação por foto com Fernando Silva pelo WhatsApp"
       >
         <Icon name="whatsapp" size={18} />
-        <span>Solicitar avaliação</span>
+        <span>Enviar fotos para avaliação</span>
         <Icon name="arrow" size={15} />
       </a>
     </aside>

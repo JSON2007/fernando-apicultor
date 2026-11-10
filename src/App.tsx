@@ -386,12 +386,13 @@ function App() {
             <div className="contact-action">
               <WhatsAppLink
                 className="button button-amber contact-button"
-                message="Olá, Fernando Silva! Encontrei um enxame e gostaria de combinar uma avaliação."
+                message="Olá, Fernando Silva! Gostaria de solicitar uma avaliação por foto. Vou enviar imagens do local e do enxame."
               >
                 Solicitar avaliação pelo WhatsApp
               </WhatsAppLink>
               <span>
-                <Icon name="check" size={16} /> Avaliação presencial sem custo
+                <Icon name="camera" size={16} /> Envie fotos para uma avaliação
+                inicial
               </span>
               <small>Atendimento mediante agendamento.</small>
             </div>

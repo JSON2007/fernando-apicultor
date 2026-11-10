@@ -29,8 +29,7 @@ export const gallery = [
 
 export const faqs = [
   { q: 'Quais cidades são atendidas?', a: 'Fernando Silva atende Ubatuba e Caraguatatuba. Consulte pelo WhatsApp a disponibilidade para o seu endereço.' },
-  { q: 'Como faço para solicitar uma avaliação?', a: 'Entre em contato pelo WhatsApp e, se possível, envie fotos ou vídeos do local e informe o endereço aproximado. Se necessário, a avaliação presencial é combinada diretamente.' },
-  { q: 'A avaliação presencial tem custo?', a: 'Não. A avaliação presencial não tem cobrança. O valor do serviço, quando necessário, é informado após entender a situação.' },
+  { q: 'Como faço para solicitar uma avaliação por foto?', a: 'Entre em contato pelo WhatsApp e envie fotos ou vídeos do enxame e do local onde ele está. Essas imagens ajudam Fernando Silva a fazer uma avaliação inicial e orientar os próximos passos.' },
   { q: 'Fernando Silva atende enxames em telhados, forros e paredes?', a: 'Sim. O atendimento inclui avaliação de ocorrências em telhados, forros, árvores, paredes e outras estruturas.' },
   { q: 'O que devo fazer ao encontrar um enxame?', a: 'Mantenha distância, afaste crianças e animais e não tente tocar, espantar ou remover o enxame. Entre em contato para receber orientação.' },
 ];
